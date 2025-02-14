@@ -999,32 +999,12 @@ my
           </p>
 </form>        </div>
 
-        <div data-target="custom-scopes.manageCustomScopesForm">
-          <div data-target="custom-scopes.list"></div>
-        </div>
-
-</div>
-      </scrollable-region>
-      <div data-view-component="true" class="Overlay-footer Overlay-footer--alignEnd Overlay-footer--divided">          <button data-action="click:custom-scopes#customScopesCancel" type="button" data-view-component="true" class="btn">    Cancel
-</button>
-          <button form="custom-scopes-dialog-form" data-action="click:custom-scopes#customScopesSubmit" data-target="custom-scopes.customScopesSubmitButton" type="submit" data-view-component="true" class="btn-primary btn">    Create saved search
-</button>
-</div>
-</dialog></dialog-helper>
-    </custom-scopes>
-  </div>
-</qbsearch-input>  <input type="hidden" value="IeTyvcJEwU0-a2goWVGj2pz-X5ya7uIVO9ovlV566tBZBkBmhPELNPOQiM0FfgNKne7e8li-P0JDTbhc0qh63w" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf">
-
 
           </div>
 
         
           <div class="AppHeader-CopilotChat">
     <react-partial-anchor data-catalyst="">
-      <button id="copilot-chat-header-button" data-target="react-partial-anchor.anchor" data-hotkey="Shift+C" aria-expanded="false" aria-controls="copilot-chat-panel" aria-labelledby="tooltip-b07a0087-dff7-4e13-8d28-482a20531dbd" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium AppHeader-button AppHeader-buttonLeft">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copilot Button-visual">
-    <path d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path>
-</svg>
-</button><tool-tip id="tooltip-b07a0087-dff7-4e13-8d28-482a20531dbd" for="copilot-chat-header-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Chat with Copilot</tool-tip>
 
       
     
@@ -1070,104 +1050,10 @@ my
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.da836b3f0662dcfeb421.module.css">
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/copilot-chat.d5f6d301829913996b78.module.css">
 
-<react-partial partial-name="copilot-chat" data-ssr="false" data-attempted-ssr="false" data-catalyst="" class="loaded">
-  
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"currentTopic":null,"findFileWorkerPath":"/assets-cdn/worker/find-file-worker-2e45fb5767a8.js","renderPopover":false,"renderBetaLabel":false,"chatIsVisible":true,"chatVisibleSettingPath":"/users/iampako/copilot_chat/settings/copilot_chat_visibility","ssoOrganizations":[],"agentsPath":"/github-copilot/chat/agents","apiURL":"https://api.individual.githubcopilot.com","currentUserLogin":"iampako","customInstructions":null,"renderKnowledgeBases":false,"optedInToPreviewFeatures":false,"optedInToUserFeedback":false,"renderAttachKnowledgeBaseHerePopover":true,"renderKnowledgeBaseAttachedToChatPopover":true,"personalInstructions":null,"previewPersonalInstructions":true,"reviewLab":false,"realIp":null,"scrollToTop":false,"hasCEorCBAccess":false,"licenseType":"unlicensed","quotas":null,"icebreakers":[{"type":"functional","data":[{"id":"open-issues-in-react","message":"Get a list of the latest open issues in the facebook/react repository, including all their labels.","titleHtml":"Open issues in \u003cspan class=\"fgColor-muted\"\u003efacebook/react\u003c/span\u003e","icon":"issue-opened","color":"var(--display-green-fgColor)"},{"id":"pulls-in-vscode","message":"Retrieve pull requests in microsoft/vscode.","titleHtml":"Pull requests in \u003cspan class=\"fgColor-muted\"\u003emicrosoft/vscode\u003c/span\u003e","icon":"git-pull-request","color":"var(--display-green-fgColor)"},{"id":"commits-in-linux","message":"Show recent commits in torvalds/linux.","titleHtml":"Recent commits in \u003cspan class=\"fgColor-muted\"\u003etorvalds/linux\u003c/span\u003e","icon":"git-commit","color":"var(--display-blue-fgColor)"},{"id":"my-latest-issues","message":"Find the five latest issues assigned to me.","titleHtml":"Find issues assigned to me","icon":"issue-opened","color":"var(--display-green-fgColor)"},{"id":"explain-hash-table","message":"Explain what a hash table is in JavaScript.","titleHtml":"What is a hash table in JS?","icon":"question","color":"var(--display-teal-fgColor)"},{"id":"latest-node-release","message":"Fetch the latest release of nodejs/node and highlight the changes.","titleHtml":"Latest \u003cspan class=\"fgColor-muted\"\u003enodejs/node\u003c/span\u003e release","icon":"tag","color":"var(--display-purple-fgColor)"},{"id":"create-profile-readme","message":"Create a profile README for $$USERNAME$$.","titleHtml":"Create a profile README for me","icon":"rocket","color":"var(--display-pink-fgColor)"},{"id":"bugs-in-primer","message":"Show recent bugs in primer/react.","titleHtml":"Recent bugs in \u003cspan class=\"fgColor-muted\"\u003eprimer/react\u003c/span\u003e","icon":"bug","color":"var(--display-red-fgColor)"},{"id":"my-open-pulls","message":"Find my open pull requests.","titleHtml":"My open pull requests","icon":"git-pull-request","color":"var(--display-green-fgColor)"},{"id":"generate-html-calculator","message":"Generate a simple calculator using HTML, CSS, and JavaScript.","titleHtml":"Generate an HTML/JS calculator","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"python-strong-password-endpoint","message":"Generate a Python endpoint for signing up that only allows strong passwords.","titleHtml":"Python password endpoint","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"rails-auth-endpoint","message":"Generate a Rails endpoint for authenticating with email and password.","titleHtml":"Rails authentication endpoint","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"react-email-validation-regex","message":"Write a regex in JavaScript that validates email addresses.","titleHtml":"Email validation regex in JS","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"explain-python-decorators","message":"Explain how decorators work in Python with examples.","titleHtml":"What are Python decorators?","icon":"question","color":"var(--display-teal-fgColor)"},{"id":"python-pandas-data-analysis","message":"Write a Python script that analyzes a dataset using Pandas.","titleHtml":"Python Panda data analysis","icon":"code","color":"var(--display-gray-fgColor)"}]},{"type":"instructional","data":[{"id":"github-problem-solving","message":"Based on your available skills, explain what you can do","titleHtml":"How can you help?","icon":"light-bulb","color":"var(--display-purple-fgColor)"},{"id":"what-can-i-do-with-github-copilot-chat","message":"What can I do with GitHub Copilot Chat?","titleHtml":"What can I do here?","icon":"light-bulb","color":"var(--display-purple-fgColor)"}]},{"type":"interactional","data":[{"id":"to-do-app-local-strage","message":"Create a to-do list application with local storage functionality.","titleHtml":"To-do list with local storage","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"digital-clock-time-zones","message":"Create a digital clock that displays the current time in different time zones.","titleHtml":"A digital time zone clock","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"weather-dashboard-app","message":"Develop a weather dashboard that fetches data from a public weather API.","titleHtml":"Develop a weather dashboard","icon":"code","color":"var(--display-gray-fgColor)"},{"id":"create-joke-generator","message":"Create a random joke generator using an external API.","titleHtml":"Create a joke generator","icon":"code","color":"var(--display-gray-fgColor)"}]}],"canShareThread":true}}</script>
-  <div data-target="react-partial.reactRoot"><div class="Box-sc-g0xbh4-0 bpDFns"></div><div class="Box-sc-g0xbh4-0 hmHhrt"></div><script type="application/json" id="__PRIMER_DATA_:r17:__">{"resolvedServerColorMode":"day"}</script></div>
-</react-partial>
-
-
-      </react-partial-anchor>
-    <react-partial-anchor data-catalyst="">
-      <button id="global-copilot-menu-button" data-target="react-partial-anchor.anchor" aria-expanded="false" aria-labelledby="tooltip-71402462-c0c9-46d1-9bd4-b8de02129c15" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium AppHeader-button AppHeader-buttonRight" aria-haspopup="true">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down Button-visual">
-    <path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path>
-</svg>
-</button><tool-tip id="tooltip-71402462-c0c9-46d1-9bd4-b8de02129c15" for="global-copilot-menu-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Open Copilot…</tool-tip>
-
-      
-    
-        <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/global-copilot-menu-505087d80bc0.js"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.da836b3f0662dcfeb421.module.css">
-
-<react-partial partial-name="global-copilot-menu" data-ssr="false" data-attempted-ssr="false" data-catalyst="" class="loaded">
-  
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{}}</script>
-  <div data-target="react-partial.reactRoot"><script type="application/json" id="__PRIMER_DATA_:r10:__">{"resolvedServerColorMode":"day"}</script></div>
-</react-partial>
-
-      </react-partial-anchor>
-</div>
-
-
-        <div class="AppHeader-actions position-relative">
-             <react-partial-anchor data-catalyst="">
-      <button id="global-create-menu-anchor" aria-label="Create something new" data-target="react-partial-anchor.anchor" type="button" data-view-component="true" class="AppHeader-button global-create-button Button--secondary Button--medium Button width-auto color-fg-muted" aria-describedby="tooltip-2a3b0ab9-fb23-4803-9943-6be99301a9ac" aria-expanded="false" aria-haspopup="true">  <span class="Button-content">
-      <span class="Button-visual Button-leadingVisual">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
-    <path d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z"></path>
-</svg>
-      </span>
-    <span class="Button-label"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
-    <path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path>
-</svg></span>
-  </span>
-</button><tool-tip id="tooltip-2a3b0ab9-fb23-4803-9943-6be99301a9ac" for="global-create-menu-anchor" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute" role="tooltip">Create new...</tool-tip>
-
-      
-    
-        <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_promise-with-resolvers-polyfill_promise-with-resolvers-polyfill_ts-ui_packages_re-8d43b0-160e9bebe347.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/global-create-menu-ff847de8f437.js"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.da836b3f0662dcfeb421.module.css">
-
-<react-partial partial-name="global-create-menu" data-ssr="false" data-attempted-ssr="false" data-catalyst="" class="loaded">
-  
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"createRepo":true,"importRepo":true,"codespaces":true,"gist":true,"createOrg":true,"createProject":true,"createProjectUrl":"/iampako?tab=projects","createLegacyProject":false,"createIssue":false,"org":null,"owner":null,"repo":null}}</script>
-  <div data-target="react-partial.reactRoot"><script type="application/json" id="__PRIMER_DATA_:r13:__">{"resolvedServerColorMode":"day"}</script></div>
-</react-partial>
-
-      </react-partial-anchor>
-
-
-          <a href="/issues" data-analytics-event="{&quot;category&quot;:&quot;Global navigation&quot;,&quot;action&quot;:&quot;ISSUES_HEADER&quot;,&quot;label&quot;:null}" id="icon-button-454a668f-a7b4-4466-bf8c-4309b3a267e6" aria-labelledby="tooltip-5c00c188-daaa-4c8f-a06b-1834a822eee9" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium AppHeader-button color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened Button-visual">
-    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
-</svg>
-</a><tool-tip id="tooltip-5c00c188-daaa-4c8f-a06b-1834a822eee9" for="icon-button-454a668f-a7b4-4466-bf8c-4309b3a267e6" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Your issues</tool-tip>
-
-          <a href="/pulls" data-analytics-event="{&quot;category&quot;:&quot;Global navigation&quot;,&quot;action&quot;:&quot;PULL_REQUESTS_HEADER&quot;,&quot;label&quot;:null}" id="icon-button-f489ef09-8cb7-4571-817d-10fde4c5a5ee" aria-labelledby="tooltip-165d51c2-fef1-4503-9756-5a4776d3ae19" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium AppHeader-button color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request Button-visual">
-    <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
-</svg>
-</a><tool-tip id="tooltip-165d51c2-fef1-4503-9756-5a4776d3ae19" for="icon-button-f489ef09-8cb7-4571-817d-10fde4c5a5ee" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Your pull requests</tool-tip>
-
-        </div>
-
-        <notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODg1ODQzMjMiLCJ0IjoxNzM5NTM0Mjk4fQ==--4f6c6051c87454f162a14e24f1383a4f802c079cddb2601f80e9cc44f342b77e" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-header-redesign-enabled="true" data-fetch-indicator-src="/notifications/indicator" data-fetch-indicator-enabled="true" data-view-component="true" class="js-socket-channel" data-fetch-retry-delay-time="500" data-catalyst="">
-    <a id="AppHeader-notifications-button" href="/notifications" aria-labelledby="notification-indicator-tooltip" data-hotkey="g n" data-target="notification-indicator.link" data-analytics-event="{&quot;category&quot;:&quot;Global navigation&quot;,&quot;action&quot;:&quot;NOTIFICATIONS_HEADER&quot;,&quot;label&quot;:&quot;icon:read&quot;}" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium AppHeader-button color-fg-muted">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-inbox Button-visual">
-    <path d="M2.8 2.06A1.75 1.75 0 0 1 4.41 1h7.18c.7 0 1.333.417 1.61 1.06l2.74 6.395c.04.093.06.194.06.295v4.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25v-4.5c0-.101.02-.202.06-.295Zm1.61.44a.25.25 0 0 0-.23.152L1.887 8H4.75a.75.75 0 0 1 .6.3L6.625 10h2.75l1.275-1.7a.75.75 0 0 1 .6-.3h2.863L11.82 2.652a.25.25 0 0 0-.23-.152Zm10.09 7h-2.875l-1.275 1.7a.75.75 0 0 1-.6.3h-3.5a.75.75 0 0 1-.6-.3L4.375 9.5H1.5v3.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Z"></path>
-</svg>
-</a>
-
-    <tool-tip id="notification-indicator-tooltip" data-target="notification-indicator.tooltip" for="AppHeader-notifications-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">You have no unread notifications</tool-tip>
-</notification-indicator>
-
-        <div class="AppHeader-user">
-          <deferred-side-panel data-url="/_side-panels/user" data-catalyst="">
-  <include-fragment data-target="deferred-side-panel.fragment">
-    <react-partial-anchor data-catalyst="">
-  <button data-target="react-partial-anchor.anchor" data-login="iampako" aria-label="Open user navigation menu" type="button" data-view-component="true" class="Button--invisible Button--medium Button Button--invisible-noVisuals color-bg-transparent p-0" aria-expanded="false" aria-haspopup="true">  <span class="Button-content">
-    <span class="Button-label"><img src="https://avatars.githubusercontent.com/u/88584323?v=4" alt="" size="32" height="32" width="32" data-view-component="true" class="avatar circle"></span>
-  </span>
-</button>
-  
-
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/global-user-nav-drawer-66c0912adff6.js"></script>
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.da836b3f0662dcfeb421.module.css">
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-user-nav-drawer.830d6c10c9fea7fc134e.module.css">
-
+<r
 <react-partial partial-name="global-user-nav-drawer" data-ssr="false" data-attempted-ssr="false" data-catalyst="" class="loaded">
   
-  <script type="application/json" data-target="react-partial.embeddedData">{"props":{"owner":{"login":"iampako","name":null,"avatarUrl":"https://avatars.githubusercontent.com/u/88584323?v=4"},"drawerId":"global-user-nav-drawer","lazyLoadItemDataFetchUrl":"/_side-panels/user.json","canAddAccount":true,"addAccountPath":"/login?add_account=1\u0026return_to=https%3A%2F%2Fgithub.com%2Fnew","switchAccountPath":"/switch_account","loginAccountPath":"/login?add_account=1","projectsPath":"/iampako?tab=projects","gistsUrl":"https://gist.github.com/mine","docsUrl":"https://docs.github.com","yourEnterpriseUrl":null,"enterpriseSettingsUrl":null,"supportUrl":"https://support.github.com","showAccountSwitcher":true,"showCopilot":true,"showEnterprises":true,"showEnterprise":false,"showGists":true,"showOrganizations":true,"showSponsors":true,"showUpgrade":true,"showFeaturesPreviews":true,"showEnterpriseSettings":false,"createMenuProps":{"createRepo":true,"importRepo":true,"codespaces":true,"gist":true,"createOrg":true,"createProject":true,"createProjectUrl":"/iampako?tab=projects","createLegacyProject":false,"createIssue":false,"org":null,"owner":null,"repo":null}}}</script>
-  <div data-target="react-partial.reactRoot"><script type="application/json" id="__PRIMER_DATA_:r16:__">{"resolvedServerColorMode":"day"}</script></div>
-</react-partial>
+
 
   </react-partial-anchor>
 
@@ -1191,17 +1077,15 @@ my
 
       <div hidden="hidden" data-view-component="true" class="js-stale-session-flash stale-session-flash flash flash-warn flash-full">
   
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+    
 </svg>
         <span class="js-stale-session-flash-signed-in" hidden="">You signed in with another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-signed-out" hidden="">You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden="">You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
     <button id="icon-button-eb960ad4-d393-4d3c-92ff-a2ba46776119" aria-labelledby="tooltip-9942d107-8be9-4f22-810d-e83d218f46e0" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+ 
 </svg>
-</button><tool-tip id="tooltip-9942d107-8be9-4f22-810d-e83d218f46e0" for="icon-button-eb960ad4-d393-4d3c-92ff-a2ba46776119" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Dismiss alert</tool-tip>
 
 
   
@@ -1246,184 +1130,5 @@ my
     
   <notification-shelf-watcher data-base-url="https://github.com/notifications/beta/shelf" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODg1ODQzMjMiLCJ0IjoxNzM5NTM0Mjk4fQ==--4f6c6051c87454f162a14e24f1383a4f802c079cddb2601f80e9cc44f342b77e" data-view-component="true" class="js-socket-channel" data-refresh-delay="500" data-catalyst="" data-throttle-delay="5000"></notification-shelf-watcher>
   <div hidden="" data-initial="" data-target="notification-shelf-watcher.placeholder"></div>
-
-
-
-
-
-
-  <div class="application-main " data-commit-hovercards-enabled="" data-discussion-hovercards-enabled="" data-issue-and-pr-hovercards-enabled="" data-project-hovercards-enabled="">
-      <main>
-        
-
-
-
-
-
-
-
-
-<react-app app-name="repo-creation" initial-path="/new" style="display: block; min-height: calc(100vh - 64px);" data-attempted-ssr="false" data-ssr="false" data-lazy="false" data-alternate="false" data-data-router-enabled="false" data-catalyst="" class="loaded">
-  
-  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"repoCreate":{"ownerItems":[{"name":"iampako","avatarUrl":"https://avatars.githubusercontent.com/u/88584323?v=4","disabled":false,"customDisabledMessage":"","isOrganization":false,"businessName":null}],"protectedOrgLogins":[],"restrictCreateRepositoriesInPersonalNamespace":false,"helpUrl":"https://docs.github.com","docsUrls":{"licensePicker":"https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository"}},"initialOwnerSelection":{"name":"iampako","avatarUrl":"https://avatars.githubusercontent.com/u/88584323?v=4","businessName":null,"displayedVisibilities":["public","private"],"defaultVisibility":"public","publicRestrictedByPolicy":false,"internalRestrictedByPolicy":null,"privateRestrictedByPolicy":null,"publicRestrictedByRulesets":false,"internalRestrictedByRulesets":false,"privateRestrictedByRulesets":false,"privateRestrictedByPlan":false,"hasTradeRestrictions":false,"adminableByCurrentUser":false,"isOrganization":false,"disabled":null,"customDisabledMessage":null,"defaultNewRepoBranch":"main","defaultBranchSettingsUrl":"/settings/repositories","enterpriseManagedUserEnabled":false,"installableApps":[],"requiredDefinitions":[],"initialPropertyValues":null,"overRepositoryLimit":false,"editableDefinitionNames":[]},"currentUserLogin":"iampako","suggestedRepoName":"expert-winner","privateModeEnabled":false,"isGithubEnterprise":false,"tradeControlsPrivateRepoCreationWarning":"We are unable to provide access to GitHub private repository services.\nIt appears your account may be based in a U.S.-sanctioned region. As a result, we are unable to provide private repository services and paid services for your account. GitHub has preserved, however, your access to \u003ca href=https://docs.github.com/en/github/site-policy/github-and-trade-controls#what-is-available-and-not-available\u003ecertain free services for public repositories\u003c/a\u003e. \nIf your account has been flagged in error, and you are not located in or resident in a sanctioned region, please \u003ca href=https://docs.github.com/github/site-policy/github-and-trade-controls#how-is-github-ensuring-that-folks-not-living-in-andor-having-professional-links-to-the-sanctioned-countries-and-territories-still-have-access-or-ability-to-appeal\u003efile an appeal\u003c/a\u003e. Please read about \u003ca href=https://docs.github.com/en/github/site-policy/github-and-trade-controls\u003eGitHub and Trade Controls\u003c/a\u003e for more information.","tradeControlsUserPrivateRepoCreationWarning":"We are unable to provide access to GitHub private repository services.\nIt appears your account may be based in a U.S.-sanctioned region. As a result, we are unable to provide private repository services and paid services for your account. GitHub has preserved, however, your access to \u003ca href=https://docs.github.com/en/github/site-policy/github-and-trade-controls#what-is-available-and-not-available\u003ecertain free services for public repositories\u003c/a\u003e. \nIf your account has been flagged in error, and you are not located in or resident in a sanctioned region, please \u003ca href=https://docs.github.com/github/site-policy/github-and-trade-controls#how-is-github-ensuring-that-folks-not-living-in-andor-having-professional-links-to-the-sanctioned-countries-and-territories-still-have-access-or-ability-to-appeal\u003efile an appeal\u003c/a\u003e. Please read about \u003ca href=https://docs.github.com/en/github/site-policy/github-and-trade-controls\u003eGitHub and Trade Controls\u003c/a\u003e for more information.","hasTemplateRepos":false,"selectedTemplate":null,"licenses":[{"id":"apache-2.0","text":"Apache License 2.0"},{"id":"gpl-3.0","text":"GNU General Public License v3.0"},{"id":"mit","text":"MIT License"},{"id":"bsd-2-clause","text":"BSD 2-Clause \"Simplified\" License"},{"id":"bsd-3-clause","text":"BSD 3-Clause \"New\" or \"Revised\" License"},{"id":"bsl-1.0","text":"Boost Software License 1.0"},{"id":"cc0-1.0","text":"Creative Commons Zero v1.0 Universal"},{"id":"epl-2.0","text":"Eclipse Public License 2.0"},{"id":"agpl-3.0","text":"GNU Affero General Public License v3.0"},{"id":"gpl-2.0","text":"GNU General Public License v2.0"},{"id":"lgpl-2.1","text":"GNU Lesser General Public License v2.1"},{"id":"mpl-2.0","text":"Mozilla Public License 2.0"},{"id":"unlicense","text":"The Unlicense"}],"publicReposAvailable":true,"repositoryImportLinkDataAttributes":{"hydro-click":"{\"event_type\":\"repository_create.click\",\"payload\":{\"event_target\":\"IMPORT_REPOSITORY_LINK\",\"originating_url\":\"https://github.com/new\",\"user_id\":88584323}}","hydro-click-hmac":"320625de3dbd11114c692b891d9f6523fad8bdd205c8e7ef90e123e10cf2a20b","ga-click":"Create Repository, import repository, location:repo new"},"nameIsRestricted":false,"csrf_tokens":{"/repositories/check-name":{"post":"eKyn77BwwOx1nrQwYalLurtYeOUARGBuCaePnLENCV3FBKXdogALstrP_2tTwM9QVuP2ojibGyd5aW8sbJiTkg"}}},"title":"New repository","appPayload":{"enabled_features":{"custom_properties_editing_redesign":false,"repos_limits":false}}}</script>
-  <div data-target="react-app.reactRoot"><form novalidate="" class="Box-sc-g0xbh4-0 jYIYlz container-md px-md-4 px-lg-5"><div class="Box-sc-g0xbh4-0 fFvevJ"><h1 class="Box-sc-g0xbh4-0 bbslBY prc-Heading-Heading-6CmGO">Create a new repository</h1><span class="Text__StyledText-sc-17v1xeu-0 iNjpgy"><div>A repository contains all project files, including the revision history.<span> Already have a project repository elsewhere? <a class="prc-Link-Link-85e08" data-inline="true" href="/new/import" data-hydro-click="{&quot;event_type&quot;:&quot;repository_create.click&quot;,&quot;payload&quot;:{&quot;event_target&quot;:&quot;IMPORT_REPOSITORY_LINK&quot;,&quot;originating_url&quot;:&quot;https://github.com/new&quot;,&quot;user_id&quot;:88584323}}" data-hydro-click-hmac="320625de3dbd11114c692b891d9f6523fad8bdd205c8e7ef90e123e10cf2a20b" data-ga-click="Create Repository, import repository, location:repo new">Import a repository.</a></span></div></span></div><span class="Text__StyledText-sc-17v1xeu-0 kossxe">Required fields are marked with an asterisk (*).</span><div class="Box-sc-g0xbh4-0 iNqfGZ"></div><div class="Box-sc-g0xbh4-0 eUSLZW"><div class="Box-sc-g0xbh4-0 kwvkSI"><div class="Box-sc-g0xbh4-0 eHEFfB"><div data-hpc="true"><fieldset><legend class="sr-only">Repository owner and name</legend><div class="Box-sc-g0xbh4-0 hvDchm"><div data-has-label="" display="flex" class="Box-sc-g0xbh4-0 dgmmuv"><label for=":r1:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt"><span class="InputLabel__StyledRequiredText-sc-l3hcqt-1 dXrcCz"><span>Owner</span><span>*</span></span></label><button type="button" aria-label="iampako" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-c50BI" data-loading="false" data-size="medium" data-variant="default" aria-describedby=":r2:-loading-announcement repo-owner-dropdown-error" id=":r2:"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-HKbr-"><span data-component="leadingVisual" class="prc-Button-Visual-2epfX prc-Button-VisualWrap-Db-eB"><img data-component="Avatar" class="prc-Avatar-Avatar-ZRS-m" alt="" width="20" height="20" src="https://avatars.githubusercontent.com/u/88584323?v=4&amp;size=40" data-testid="github-avatar" style="--avatarSize-regular: 20px;"></span><span data-component="text" class="prc-Button-Label-pTQ3x">iampako</span></span><span data-component="trailingAction" class="prc-Button-Visual-2epfX prc-Button-VisualWrap-Db-eB"><svg aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></button></div><span class="Text__StyledText-sc-17v1xeu-0 iftChs">/</span><div class="Box-sc-g0xbh4-0 goCeIa"><div data-has-label="" display="flex" class="Box-sc-g0xbh4-0 dgmmuv"><label for=":r5:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt"><span class="InputLabel__StyledRequiredText-sc-l3hcqt-1 dXrcCz"><span>Repository name</span><span>*</span></span></label><span class="TextInputWrapper__StyledTextInputBaseWrapper-sc-1mqhpbi-0 jMFjfB TextInputWrapper__StyledTextInputWrapper-sc-1mqhpbi-1 GvHdV TextInput-wrapper" aria-busy="false"><input type="text" aria-required="true" aria-describedby="RepoNameInput-is-available RepoNameInput-message" id=":r5:" data-component="input" class="UnstyledTextInput__ToggledUnstyledTextInput-sc-14ypya-0 jkNcAv" value="my"></span><span class="Text__StyledText-sc-17v1xeu-0 hWqAbU InputValidation__StyledInputValidation-sc-1b199hv-0 bGdBcy" data-validation-status="success"><span aria-hidden="true" class="InputValidation__StyledValidationIcon-sc-1b199hv-1 lNPjd" style="--inputValidation-iconSize: 16;"><svg aria-hidden="true" focusable="false" class="octicon octicon-check-circle-fill" viewBox="0 0 12 12" width="12" height="12" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M6 0a6 6 0 1 1 0 12A6 6 0 0 1 6 0Zm-.705 8.737L9.63 4.403 8.392 3.166 5.295 6.263l-1.7-1.702L2.356 5.8l2.938 2.938Z"></path></svg></span><span id="RepoNameInput-is-available" class="InputValidation__StyledValidationText-sc-1b199hv-2 gIKiJu" style="--inputValidation-lineHeight: 1.3333333333333333;">my is available.</span></span></div></div></div></fieldset></div><div class="Box-sc-g0xbh4-0 bXGQPA">Great repository names are short and memorable. Need inspiration? How about&nbsp;<button type="button" aria-label="Use suggested repository name expert-winner" class="Box-sc-g0xbh4-0 iaKMtX prc-Button-ButtonBase-c50BI" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="invisible" aria-describedby=":r9:-loading-announcement" style="--button-color: success.fg;"><span data-component="buttonContent" class="Box-sc-g0xbh4-0 gUkoLg prc-Button-ButtonContent-HKbr-"><span data-component="text" class="prc-Button-Label-pTQ3x">expert-winner</span></span></button>&nbsp;?</div><div data-has-label="" display="flex" class="Box-sc-g0xbh4-0 dgmmuv"><label for=":ra:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Description <span class="Text__StyledText-sc-17v1xeu-0 CBKpf">(optional)</span></label><span class="TextInputWrapper__StyledTextInputBaseWrapper-sc-1mqhpbi-0 jMFjfB TextInputWrapper__StyledTextInputWrapper-sc-1mqhpbi-1 GvHdV TextInput-wrapper" data-block="true" aria-busy="false"><input type="text" aria-label="Description" name="Description" id=":ra:" data-component="input" class="UnstyledTextInput__ToggledUnstyledTextInput-sc-14ypya-0 jkNcAv" value="my"></span></div></div><div class="Box-sc-g0xbh4-0 khsgDT"><div><div><fieldset class="Box-sc-g0xbh4-0 lihSeY"><legend class="Box-sc-g0xbh4-0 bnIjCQ"><span class="_VisuallyHidden__VisuallyHidden-sc-11jhm7a-0 brGdpi">Visibility</span></legend><div class="CheckboxOrRadioGroup__Body-sc-1t4rdk-0 bRKgJx"><div data-has-leading-visual="" class="FormControl__StyledHorizontalLayout-sc-1t6d2k4-0 bvgYXp"><div class="FormControl__StyledChoiceInputs-sc-1t6d2k4-1 ecsbPi prc-FormControl-ControlChoiceInputs-VxfAy"><input type="radio" name="visibilityGroup" aria-checked="true" aria-required="false" aria-invalid="false" class="prc-Checkbox-Input-mxggT prc-Radio-Radio-Ly4MR" id=":rf:" aria-describedby=":rf:-caption" value="public" checked=""></div><div class="FormControl__StyledLeadingVisual-sc-1t6d2k4-3 lfVPiT" data-has-caption=""><div data-has-caption="" class="FormControlLeadingVisual__StyledLeadingVisual-sc-1c26i0t-0 dYBNvY"><svg aria-hidden="true" focusable="false" class="Octicon-sc-9kayk9-0 knLhXt" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M3 2.75A2.75 2.75 0 0 1 5.75 0h14.5a.75.75 0 0 1 .75.75v20.5a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h5.25v-4H6A1.5 1.5 0 0 0 4.5 18v.75c0 .716.43 1.334 1.05 1.605a.75.75 0 0 1-.6 1.374A3.251 3.251 0 0 1 3 18.75ZM19.5 1.5H5.75c-.69 0-1.25.56-1.25 1.25v12.651A2.989 2.989 0 0 1 6 15h13.5Z"></path><path d="M7 18.25a.25.25 0 0 1 .25-.25h5a.25.25 0 0 1 .25.25v5.01a.25.25 0 0 1-.397.201l-2.206-1.604a.25.25 0 0 0-.294 0L7.397 23.46a.25.25 0 0 1-.397-.2v-5.01Z"></path></svg></div></div><div class="FormControl__StyledLabelContainer-sc-1t6d2k4-2 hKkPyH prc-FormControl-LabelContainer-lwQsw"><label for=":rf:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Public</label><span class="Text__StyledText-sc-17v1xeu-0 hWqAbU FormControlCaption__StyledCaption-sc-u5w2b2-0 kfTVze" id=":rf:-caption">Anyone on the internet can see this repository. You choose who can commit.</span></div></div><div data-has-leading-visual="" class="FormControl__StyledHorizontalLayout-sc-1t6d2k4-0 bvgYXp"><div class="FormControl__StyledChoiceInputs-sc-1t6d2k4-1 ecsbPi prc-FormControl-ControlChoiceInputs-VxfAy"><input type="radio" name="visibilityGroup" aria-checked="false" aria-required="false" aria-invalid="false" class="prc-Checkbox-Input-mxggT prc-Radio-Radio-Ly4MR" id=":rg:" aria-describedby=":rg:-caption" value="private"></div><div class="FormControl__StyledLeadingVisual-sc-1t6d2k4-3 lfVPiT" data-has-caption=""><div data-has-caption="" class="FormControlLeadingVisual__StyledLeadingVisual-sc-1c26i0t-0 dYBNvY"><svg aria-hidden="true" focusable="false" class="Octicon-sc-9kayk9-0 knLhXt" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M6 9V7.25C6 3.845 8.503 1 12 1s6 2.845 6 6.25V9h.5a2.5 2.5 0 0 1 2.5 2.5v8a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 19.5v-8A2.5 2.5 0 0 1 5.5 9Zm-1.5 2.5v8a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-13a1 1 0 0 0-1 1Zm3-4.25V9h9V7.25c0-2.67-1.922-4.75-4.5-4.75-2.578 0-4.5 2.08-4.5 4.75Z"></path></svg></div></div><div class="FormControl__StyledLabelContainer-sc-1t6d2k4-2 hKkPyH prc-FormControl-LabelContainer-lwQsw"><label for=":rg:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Private</label><span class="Text__StyledText-sc-17v1xeu-0 hWqAbU FormControlCaption__StyledCaption-sc-u5w2b2-0 kfTVze" id=":rg:-caption">You choose who can see and commit to this repository.</span></div></div></div></fieldset></div></div></div></div><div class="Box-sc-g0xbh4-0 gMdcDa"><div><div data-has-label="" display="flex" class="Box-sc-g0xbh4-0 cFRNBR"><label for=":rh:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Initialize this repository with:</label><div class="FormControl__StyledHorizontalLayout-sc-1t6d2k4-0 bvgYXp"><div class="FormControl__StyledChoiceInputs-sc-1t6d2k4-1 ecsbPi prc-FormControl-ControlChoiceInputs-VxfAy"><input type="checkbox" aria-required="false" aria-invalid="false" id=":ri:" aria-describedby=":ri:-caption" class="prc-Checkbox-Input-mxggT prc-Checkbox-Checkbox-gIwWX" value="" aria-checked="true"></div><div class="FormControl__StyledLabelContainer-sc-1t6d2k4-2 hKkPyH prc-FormControl-LabelContainer-lwQsw"><label for=":ri:" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Add a README file</label><span class="Text__StyledText-sc-17v1xeu-0 hWqAbU FormControlCaption__StyledCaption-sc-u5w2b2-0 kfTVze" id=":ri:-caption">This is where you can write a long description for your project. <a class="prc-Link-Link-85e08" data-inline="true" href="https://docs.github.com/github/creating-cloning-and-archiving-repositories/about-readmes" target="_blank">Learn more about READMEs.</a></span></div></div></div><div data-has-label="" display="flex" class="Box-sc-g0xbh4-0 cFRNBR"><label for="gitignore-dropdown" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Add .gitignore</label><div class="Box-sc-g0xbh4-0 gTzutY"><button type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-c50BI" data-loading="false" data-size="small" data-variant="default" aria-describedby=":rm:-loading-announcement license-picker-label" id=":rm:"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-HKbr-"><span data-component="text" class="prc-Button-Label-pTQ3x"><span class="Text__StyledText-sc-17v1xeu-0 iNjpgy">.gitignore template:</span> None</span></span><span data-component="trailingAction" class="prc-Button-Visual-2epfX prc-Button-VisualWrap-Db-eB"><svg aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></button></div><span class="Text__StyledText-sc-17v1xeu-0 hWqAbU FormControlCaption__StyledCaption-sc-u5w2b2-0 kfTVze" id="gitignore-dropdown-caption">Choose which files not to track from a list of templates. <a class="prc-Link-Link-85e08" data-inline="true" href="https://docs.github.com/github/using-git/ignoring-files" target="_blank">Learn more about ignoring files.</a></span></div><div data-has-label="" display="flex" class="Box-sc-g0xbh4-0 cFRNBR"><label for="license-picker" id="license-picker-label" class="InputLabel__StyledLabel-sc-l3hcqt-0 dBcqgt">Choose a license</label><div class="Box-sc-g0xbh4-0 gTzutY"><button type="button" aria-haspopup="true" aria-expanded="false" tabindex="0" class="prc-Button-ButtonBase-c50BI" data-loading="false" data-size="small" data-variant="default" aria-describedby=":rr:-loading-announcement license-picker-label" id=":rr:"><span data-component="buttonContent" data-align="center" class="prc-Button-ButtonContent-HKbr-"><span data-component="text" class="prc-Button-Label-pTQ3x"><span class="Text__StyledText-sc-17v1xeu-0 iNjpgy">License:</span> None</span></span><span data-component="trailingAction" class="prc-Button-Visual-2epfX prc-Button-VisualWrap-Db-eB"><svg aria-hidden="true" focusable="false" class="octicon octicon-triangle-down" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0 11.396 7H4.604a.25.25 0 0 0-.177.427Z"></path></svg></span></button></div><span class="Text__StyledText-sc-17v1xeu-0 hWqAbU FormControlCaption__StyledCaption-sc-u5w2b2-0 kfTVze" id="license-picker-caption">A license tells others what they can and can't do with your code. <a class="prc-Link-Link-85e08" data-inline="true" href="https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository" target="_blank">Learn more about licenses.</a></span></div><div class="Box-sc-g0xbh4-0 bOSFyx"><span class="Text__StyledText-sc-17v1xeu-0 iNjpgy">This will set <span class="commit-ref"><svg aria-hidden="true" focusable="false" class="octicon octicon-git-branch" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path></svg>main</span> as the default branch.<span> Change the default name in your <a class="prc-Link-Link-85e08" data-inline="true" aria-label="Branch settings link" href="/settings/repositories">settings</a>.</span></span></div></div></div></div><div class="Box-sc-g0xbh4-0 haypxh"><svg aria-hidden="true" focusable="false" class="Octicon-sc-9kayk9-0 kfGkqo" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg><span>You are creating a public repository in your personal account.</span></div><div class="Box-sc-g0xbh4-0 dlBivO"><button type="submit" class="Box-sc-g0xbh4-0 jLvIcQ prc-Button-ButtonBase-c50BI" data-loading="false" data-no-visuals="true" data-size="medium" data-variant="primary" aria-describedby=":rt:-loading-announcement"><span data-component="buttonContent" class="Box-sc-g0xbh4-0 gUkoLg prc-Button-ButtonContent-HKbr-"><span data-component="text" class="prc-Button-Label-pTQ3x">Create repository</span></span></button></div></form><script type="application/json" id="__PRIMER_DATA_:r0:__">{"resolvedServerColorMode":"day"}</script></div>
-</react-app>
-
-
-      </main>
-  </div>
-
-          <footer class="footer pt-8 pb-6 f6 color-fg-muted p-responsive" role="contentinfo">
-  <h2 class="sr-only">Footer</h2>
-
-  
-
-
-  <div class="d-flex flex-justify-center flex-items-center flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
-    <div class="d-flex flex-items-center flex-shrink-0 mx-2">
-      <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-2" href="https://github.com">
-        <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
-    <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
-</svg>
-</a>
-      <span>
-        © 2025 GitHub,&nbsp;Inc.
-      </span>
-    </div>
-
-    <nav aria-label="Footer">
-      <h3 class="sr-only" id="sr-footer-heading">Footer navigation</h3>
-
-      <ul class="list-style-none d-flex flex-justify-center flex-wrap mb-2 mb-lg-0" aria-labelledby="sr-footer-heading">
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}" href="https://docs.github.com/site-policy/github-terms/github-terms-of-service" data-view-component="true" class="Link--secondary Link">Terms</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}" href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" data-view-component="true" class="Link--secondary Link">Privacy</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security" data-view-component="true" class="Link--secondary Link">Security</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}" href="https://www.githubstatus.com/" data-view-component="true" class="Link--secondary Link">Status</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to docs&quot;,&quot;label&quot;:&quot;text:docs&quot;}" href="https://docs.github.com/" data-view-component="true" class="Link--secondary Link">Docs</a>
-          </li>
-
-          <li class="mx-2">
-            <a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}" href="https://support.github.com?tags=dotcom-footer" data-view-component="true" class="Link--secondary Link">Contact</a>
-          </li>
-
-          <li class="mx-2">
-  <cookie-consent-link data-catalyst="">
-    <button type="button" class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent" data-action="click:cookie-consent-link#showConsentManagement" data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;cookies&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;cookies_link_subfooter_footer&quot;}">
-      Manage cookies
-    </button>
-  </cookie-consent-link>
-</li>
-
-<li class="mx-2">
-  <cookie-consent-link data-catalyst="">
-    <button type="button" class="Link--secondary underline-on-hover border-0 p-0 color-bg-transparent" data-action="click:cookie-consent-link#showConsentManagement" data-analytics-event="{&quot;location&quot;:&quot;footer&quot;,&quot;action&quot;:&quot;dont_share_info&quot;,&quot;context&quot;:&quot;subfooter&quot;,&quot;tag&quot;:&quot;link&quot;,&quot;label&quot;:&quot;dont_share_info_link_subfooter_footer&quot;}">
-      Do not share my personal information
-    </button>
-  </cookie-consent-link>
-</li>
-
-      </ul>
-    </nav>
-  </div>
-</footer>
-
-
-
-    <ghcc-consent id="ghcc" class="position-fixed bottom-0 left-0" style="z-index: 999999" data-initial-cookie-consent-allowed="" data-cookie-consent-required="true" data-catalyst=""></ghcc-consent>
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden="">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
-
-    <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open="">
-    <summary role="button" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog="">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
-
-    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;"></div>
-</div>
-
-    <template id="snippet-clipboard-copy-button">
-  <div class="zeroclipboard-container position-absolute right-0 top-0">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0" data-copy-feedback="Copied!" data-tooltip-direction="w">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
-  </div>
-</template>
-<template id="snippet-clipboard-copy-button-unpositioned">
-  <div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
-  </div>
-</template>
-
-
-    <style>
-      .user-mention[href$="/iampako"] {
-        color: var(--color-user-mention-fg);
-        background-color: var(--bgColor-attention-muted, var(--color-attention-subtle));
-        border-radius: 2px;
-        margin-left: -2px;
-        margin-right: -2px;
-      }
-      .user-mention[href$="/iampako"]:before,
-      .user-mention[href$="/iampako"]:after {
-        content: '';
-        display: inline-block;
-        width: 2px;
-      }
-    </style>
-
-
-    </div>
-
-    <div id="js-global-screen-reader-notice" class="sr-only mt-n1" aria-live="polite" aria-atomic="true"></div>
-    <div id="js-global-screen-reader-notice-assertive" class="sr-only mt-n1" aria-live="assertive" aria-atomic="true"></div>
-  
 
 </body></html>
